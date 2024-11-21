@@ -1,0 +1,930 @@
+body{
+
+    overflow-x: hidden;
+
+
+    overflow-x: hidden;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+a {text-decoration: none; }
+h1{
+    position: fixed;
+    top:-20px;
+    left:0px;
+    color: black;
+}
+
+p{
+    position: absolute;
+    top:20px;
+    left:100px;
+    color: black;
+}
+
+img {
+    border: (0px);
+    transform: translate(0px);
+    margin-left: 20px;
+}
+
+/* город */
+
+/*.town1{
+    position: absolute;
+    right:36cm;
+    top:18cm;
+}
+*/    
+#a1{
+    position: absolute;
+    right:36cm;
+    top:17cm;
+}
+#a2{
+    position: absolute;
+    right:37cm;
+    top:17cm;
+}
+#a3{
+    position: absolute;
+    right:35cm;
+    top:16cm;
+}
+#a4{
+    position: absolute;
+    right:34cm;
+    top:16cm;
+}
+
+#a5{
+    position: absolute;
+    right:36cm;
+    top:10cm;
+}
+#a6{
+    position: absolute;
+    right:30cm;
+    top:17cm;
+}
+
+#a7{
+    position: absolute;
+    right:38cm;
+    top:6cm;
+}
+#a8{
+    position: absolute;
+    right:36cm;
+    top:15cm;
+}
+
+#a9{
+    position: absolute;
+    right:38cm;
+    top:16cm;
+
+}
+#a10{
+    position: absolute;
+    right:28cm;
+    top:17cm;
+}
+#a11{
+    position: absolute;
+    right:30cm;
+    top:18cm;
+}
+#a12{
+    position: absolute;
+    right:34cm;
+    top:18cm;
+}
+#a13{
+    position: absolute;
+    right:32cm;
+    top:17cm;
+}
+#a14{
+    position: absolute;
+    right:22cm;
+    top:18cm;
+
+}
+
+#a15{
+    position: absolute;
+    right:20cm;
+    top:18cm;
+
+}
+
+
+
+/* вода */
+#a16{
+    position: absolute;
+    right:36cm;
+    top:11cm;
+}
+
+#a17{
+    position: absolute;
+    right:36cm;
+    top:10cm;
+}
+
+#a18{
+    position: absolute;
+    right:36m;
+    top:9cm;
+}
+#a19{
+    position: absolute;
+    right:39cm;
+    top:10cm;
+}
+
+#a20{
+    position: absolute;
+    right:37cm;
+    top:9cm;
+
+}
+#a21{
+    position: absolute;
+    right:39cm;
+    top:8cm;
+}
+
+#a22{
+    position: absolute;
+    right:38cm;
+    top:8cm;
+
+}
+#a23{
+    position: absolute;
+    right:37cm;
+    top:5cm;
+}
+#a24{
+    position: absolute;
+    right:39cm;
+    top:4cm;
+}
+#a25{
+    position: absolute;
+    right:32cm;
+    top:3cm;
+}
+#a26{
+    position: absolute;
+    right:33cm;
+    top:4cm;
+}
+#a27{
+    position: absolute;
+    right:25cm;
+    top:5cm;
+}
+#a28{
+    position: absolute;
+    right:26cm;
+    top:9cm;
+}
+#a29{
+    position: absolute;
+    right:31cm;
+    top:4cm;
+}
+#a30{
+    position: absolute;
+    right:30cm;
+    top:5cm;
+}
+#a31{
+    position: absolute;
+    right:24cm;
+    top:7cm;
+}
+#a32{
+    position: absolute;
+    right:27cm;
+    top:8cm;
+}
+#a33{
+    position: absolute;
+    right:34cm;
+    top:2cm;
+}
+#a34{
+    position: absolute;
+    right:36cm;
+    top:3cm;
+}
+#a35{
+    position: absolute;
+    right:35.5cm;
+    top:3.5cm;
+}
+#a36{
+    position: absolute;
+    right:34.5cm;
+    top:3cm;
+}
+#a37{
+    position: absolute;
+    right:31cm;
+    top:7cm;
+}
+#a38{
+    position: absolute;
+    right:34cm;
+    top:2cm;
+}
+#a39{
+    position: absolute;
+    right:27cm;
+    top:3cm;
+}
+#a40{
+    position: absolute;
+    right:26.5cm;
+    top:3.5cm;
+}
+#a41{
+    position: absolute;
+    right:26cm;
+    top:2cm;
+}
+#a42{
+    position: absolute;
+    right:25cm;
+    top:3cm;
+}
+#a43{
+    position: absolute;
+    right:24cm;
+    top:2.5cm;
+}
+#a44{
+    position: absolute;
+    right:23.5cm;
+    top:3cm;
+}
+#a45{
+    position: absolute;
+    right:24cm;
+    top:4cm;
+}
+#a46{
+    position: absolute;
+    right:23cm;
+    top:1cm;
+}
+#a47{
+    position: absolute;
+    right:24cm;
+    top:4cm;
+}
+
+
+#a200{
+    /* маяк */
+    position: absolute;
+    top:7cm;
+    right:35cm;
+}
+
+/* горы */
+#a48{
+    position: absolute;
+    right:2cm;
+    top:18cm;
+}
+#a49{
+    position: absolute;
+    right:4cm;
+    top:17cm;
+}
+
+#a50{
+    position: absolute;
+    right:9cm;
+    top:16cm;
+}
+#a51{
+    position: absolute;
+    right:7cm;
+    top:15cm;
+}
+#a52{
+    position: absolute;
+    right:8cm;
+    top:16cm;
+}
+
+#a53{
+    position: absolute;
+    right:5cm;
+    top:16cm;
+}
+#a54{
+    position: absolute;
+    right:6cm;
+    top:16cm;
+}
+#a55{
+    position: absolute;
+    right:2cm;
+    top:12cm;
+}
+#a56{
+    position: absolute;
+    right:4cm;
+    top:20cm;
+}
+#a57{
+    position: absolute;
+    right:2cm;
+    top:17cm;
+}
+#a58{
+    position: absolute;
+    right:3cm;
+    top:15cm;
+}
+#a59{
+    position: absolute;
+    right:4cm;
+    top:13cm;
+}
+#a60{
+    position: absolute;
+    right:1cm;
+    top:15cm;
+}
+#a61{
+    position: absolute;
+    right:2cm;
+    top:14cm;
+}
+#a62{
+    position: absolute;
+    right:17cm;
+    top:18cm;
+}
+#a63{
+    position: absolute;
+    right:2cm;
+    top:15cm;
+}
+
+
+
+
+#a79{
+    position: absolute;
+    right:24cm;
+    top:15cm;
+}
+#a80{
+    position: absolute;
+    right:19cm;
+    top:16cm;
+}
+#a81{
+    position: absolute;
+    right:19cm;
+    top:15cm;
+}
+
+#a82{
+    position: absolute;
+    right:17cm;
+    top:15cm;
+}
+#a83{
+    position: absolute;
+    right:15cm;
+    top:16cm;
+}
+#a84{
+    position: absolute;
+    right:18cm;
+    top:17cm;
+}
+#a85{
+    position: absolute;
+    right:18cm;
+    top:13cm;
+}
+#a86{
+    position: absolute;
+    right:15cm;
+    top:15cm;
+}
+#a87{
+    position: absolute;
+    right:14cm;
+    top:15cm;
+}
+#a88{
+    position: absolute;
+    right:15cm;
+    top:18cm;
+}
+#a89{
+    position: absolute;
+    right:13cm;
+    top:18cm;
+}
+#a90{
+    position: absolute;
+    right:10cm;
+    top:16cm;
+}
+#a91{
+    position: absolute;
+    right:11cm;
+    top:18cm;
+}
+#a92{
+    position: absolute;
+    right:11cm;
+    top:17cm;
+}
+#a93{
+    position: absolute;
+    right:10cm;
+    top:18cm;
+}
+
+/* лес */
+
+
+#a94{
+    position: absolute;
+    right:7cm;
+    top:3cm;
+}
+#a95{
+    position: absolute;
+    right:7cm;
+    top:2cm;
+}
+#a96{
+    position: absolute;
+    right:9cm;
+    top:4cm;
+}
+#a97{
+    position: absolute;
+    right:17cm;
+    top:1cm;
+}
+#a98{
+    position: absolute;
+    right:19cm;
+    top:2cm;
+}
+#a99{
+    position: absolute;
+    right:10cm;
+    top:1cm;
+}
+#a100{
+    position: absolute;
+    right:11cm;
+    top:4cm;
+}
+#a101{
+    position: absolute;
+    right:20cm;
+    top:3cm;
+}
+#a102{
+    position: absolute;
+    right:19cm;
+    top:2cm;
+}
+#a103{
+    position: absolute;
+    right:17cm;
+    top:4cm;
+}
+#a104{
+    position: absolute;
+    right:17cm;
+    top:8cm;
+}
+#a105{
+    position: absolute;
+    right:18cm;
+    top:6cm;
+}
+#a106{
+    position: absolute;
+    right:19cm;
+    top:7cm;
+}
+#a107{
+    position: absolute;
+    right:19cm;
+    top:8cm;
+}
+#a108{
+    position: absolute;
+    right:18cm;
+    top:8cm;
+}
+#a109{
+    position: absolute;
+    right:19cm;
+    top:11cm;
+}
+#a110{
+    position: absolute;
+    right:17cm;
+    top:9cm;
+}
+#a111{
+    position: absolute;
+    right:17cm;
+    top:10cm;
+}
+#a112{
+    position: absolute;
+    right:17cm;
+    top:12cm;
+}
+#a113{
+    position: absolute;
+    right:15cm;
+    top:13cm;
+}
+#a114{
+    position: absolute;
+    right:16cm;
+    top:12cm;
+}
+
+#a115{
+    position: absolute;
+    right:2cm;
+    top:11cm;
+}
+#a116{
+    position: absolute;
+    right:5cm;
+    top:12cm;
+}
+
+
+#a117{
+    position: absolute;
+    right:7cm;
+    top:8cm;
+}
+#a118{
+    position: absolute;
+    right:8cm;
+    top:9cm;
+}
+#a119{
+    position: absolute;
+    right:5cm;
+    top:9cm;
+}
+#a120{
+    position: absolute;
+    right:6cm;
+    top:11cm;
+}
+#a121{
+    position: absolute;
+    right:5cm;
+    top:10cm;
+}
+#a122{
+    position: absolute;
+    right:4cm;
+    top:9cm;
+}
+#a123{
+    position: absolute;
+    right:3cm;
+    top:9cm;
+}
+#a124{
+    position: absolute;
+    right:2cm;
+    top:10cm;
+}
+#a125{
+    position: absolute;
+    right:5cm;
+    top:7cm;
+}
+#a126{
+    position: absolute;
+    right:4cm;
+    top:6cm;
+}
+#a127{
+    position: absolute;
+    right:4cm;
+    top:5cm;
+}
+#a128{
+    position: absolute;
+    right:2cm;
+    top:6cm;
+}
+#a129{
+    position: absolute;
+    right:3cm;
+    top:5cm;
+}
+#a130{
+    position: absolute;
+    right:2cm;
+    top:7cm;
+}
+#a131{
+    position: absolute;
+    right:11cm;
+    top:7cm;
+}
+#a132{
+    position: absolute;
+    right:11cm;
+    top:5cm;
+}
+#a133{
+    position: absolute;
+    right:12cm;
+    top:5cm;
+}
+#a134{
+    position: absolute;
+    right:14cm;
+    top:6cm;
+}
+#a135{
+    position: absolute;
+    right:15cm;
+    top:11cm;
+}
+#a136{
+    position: absolute;
+    right:12cm;
+    top:11cm;
+}
+#a137{
+    position: absolute;
+    right:12cm;
+    top:8cm;
+}
+#a138{
+    position: absolute;
+    right:15cm;
+    top:8cm;
+}
+#a139{
+    position: absolute;
+    right:15cm;
+    top:7cm;
+}
+#a140{
+    position: absolute;
+    right:18cm;
+    top:2cm;
+}
+#a141{
+    position: absolute;
+    right:19cm;
+    top:6cm;
+}
+#a142{
+    position: absolute;
+    right:12cm;
+    top:12cm;
+}
+#a143{
+    position: absolute;
+    right:16cm;
+    top:10.5cm;
+}
+#a144{
+    position: absolute;
+    right:18cm;
+    top:10.5cm;
+}
+#a145{
+    position: absolute;
+    right:16.5cm;
+    top:11cm;
+}
+#a146{
+    position: absolute;
+    right:14.5cm;
+    top:10.5cm;
+}
+#a147{
+    position: absolute;
+    right:14cm;
+    top:10cm;
+}
+
+    /* грибы */
+#a148{
+    position: absolute;
+    right:9cm;
+    top:5cm;
+}
+#a149{
+    position: absolute;
+    right:10cm;
+    top:4cm;
+}
+#a150{
+    position: absolute;
+    right:10cm;
+    top:3cm;
+}
+#a151{
+    position: absolute;
+    right:12cm;
+    top:2cm;
+}
+#a152{
+    position: absolute;
+    right:13cm;
+    top:6cm;
+}
+#a153{
+    position: absolute;
+    right:13cm;
+    top:5cm;
+}
+#a154{
+    position: absolute;
+    right:14cm;
+    top:4cm;
+}
+#a155{
+    position: absolute;
+    right:15cm;
+    top:10cm;
+}
+#a156{
+    position: absolute;
+    right:15cm;
+    top:9cm;
+}
+#a157{
+    position: absolute;
+    right:3cm;
+    top:3cm;
+}
+#a158{
+    position: absolute;
+    right:4cm;
+    top:2cm;
+}
+#a159{
+    position: absolute;
+    right:15cm;
+    top:2cm;
+}
+#a160{
+    position: absolute;
+    right:10cm;
+    top:7cm;
+}
+#a161{
+    position: absolute;
+    right:12cm;
+    top:6cm;
+}
+#a162{
+    position: absolute;
+    right:13cm;
+    top:4cm;
+}
+#a163{
+    position: absolute;
+    right:15cm;
+    top:5cm;
+}
+#a164{
+    position: absolute;
+    right:16cm;
+    top:4cm;
+}
+#a165{
+    position: absolute;
+    right:10cm;
+    top:7cm;
+}
+#a166{
+    position: absolute;
+    right:12cm;
+    top:3.5cm;
+}
+#a167{
+    position: absolute;
+    right:12.5cm;
+    top:3cm;
+}
+#a168{
+    position: absolute;
+    right:6cm;
+    top:7cm;
+}
+#a169{
+    position: absolute;
+    right:6cm;
+    top:5cm;
+}
+#a170{
+    position: absolute;
+    right:3cm;
+    top:8cm;
+}
+#a171{
+    position: absolute;
+    right:10cm;
+    top:10cm;
+}
+#a172{
+    position: absolute;
+    right:8cm;
+    top:3cm;
+}
+
+        /* трава */
+#a173{
+    position: absolute;
+    right:6cm;
+    top:3cm;
+}
+#a174{
+    position: absolute;
+    right:9cm;
+    top:5.5cm;
+}
+#a175{
+    position: absolute;
+    right:8cm;
+    top:5cm;
+}
+#a176{
+    position: absolute;
+    right:6cm;
+    top:6cm;
+}
+#a177{
+    position: absolute;
+    right:6cm;
+    top:4cm;
+}
+#a178{
+    position: absolute;
+    right:4.5cm;
+    top:4cm;
+}
+#a179{
+    position: absolute;
+    right:3.5cm;
+    top:3.5cm;
+}
+#a180{
+    position: absolute;
+    right:4cm;
+    top:3cm;
+
+}
+#a181{
+    position: absolute;
+    right:2cm;
+    top:3cm;
+}
+#a182{
+    position: absolute;
+    right:3cm;
+    top:2.5cm;
+}
+#a183{
+    position: absolute;
+    right:3cm;
+    top:2cm;
+}
+#a500{
+    position: absolute;
+    right:0cm;
+    top:0cm;
+}
