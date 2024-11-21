@@ -1,42 +1,47 @@
 body{
 
+    background-image: url(map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     overflow-x: hidden;
-
-
     overflow-x: hidden;
-    max-width: fit-content;
-    max-height: fit-content;
+    overflow-y: hidden;
+    margin:0;
 }
 
-a {text-decoration: none; }
-h1{
-    position: fixed;
-    top:-20px;
-    left:0px;
-    color: black;
+.grid {
+  position: absolute;
+  height: 100vh;
+  width:100vw;
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  grid-template-rows: 3fr 3fr;
+  grid-gap: 0.1em;
 }
 
-p{
-    position: absolute;
-    top:20px;
-    left:100px;
-    color: black;
+/**
+.block {
+  grid-area: 1/1/3/3;
+  background: #ffffff;
 }
 
-img {
-    border: (0px);
-    transform: translate(0px);
-    margin-left: 20px;
+
+.grid-view div {
+  border: 1px dotted rgb(0, 0, 0);
+  z-index: 999;
 }
+
+.grid-view {
+  grid-column: 1/span all;
+  grid-row: 1/span all;
+}
+*/
 
 /* город */
 
-/*.town1{
-    position: absolute;
-    right:36cm;
-    top:18cm;
-}
-*/    
+   
 #a1{
     position: absolute;
     right:36cm;
@@ -137,7 +142,7 @@ img {
 
 #a18{
     position: absolute;
-    right:36m;
+    right:38m;
     top:9cm;
 }
 #a19{
@@ -378,12 +383,85 @@ img {
 }
 #a63{
     position: absolute;
-    right:2cm;
-    top:15cm;
+    right:16cm;
+    top:12cm;
+}
+#a64{
+    position: absolute;
+    right:16cm;
+    top:12cm;
 }
 
-
-
+#a65{
+    position: fixed;
+    right: 5m;
+    top:16cm;
+}
+#a66{
+    position: absolute;
+    right:4cm;
+    top:18cm;
+}
+#a67{
+    position: absolute;
+    right:4cm;
+    top:16cm;
+}
+#a68{
+    position: absolute;
+    right:2cm;
+    top:19cm;
+}
+#a69{
+    position: absolute;
+    right:18cm;
+    top:19cm;
+}
+#a70{
+    position: absolute;
+    right:6cm;
+    top:15cm;
+}
+#a71{
+    position: absolute;
+    right:5cm;
+    top:14cm;
+}
+#a72{
+    position: absolute;
+    right:16cm;
+    top:14cm;
+}
+#a73{
+    position: absolute;
+    right:12cm;
+    top:14cm;
+}
+#a74{
+    position: absolute;
+    right:8cm;
+    top:18cm;
+}
+#a75{
+    position: absolute;
+    right:10cm;
+    top:19cm;
+}
+#a76{
+    position: absolute;
+    right:14cm;
+    top:17cm;
+}
+#a77{
+    position: absolute;
+    right:12cm;
+    top:19cm;
+}
+#a78{
+    position: absolute;
+    right:8cm;
+    top:13cm;
+}
 
 #a79{
     position: absolute;
@@ -406,10 +484,12 @@ img {
     right:17cm;
     top:15cm;
 }
+
 #a83{
+    /* elasive tech*/
     position: absolute;
-    right:15cm;
-    top:16cm;
+    right:5cm;
+    top:18cm;
 }
 #a84{
     position: absolute;
@@ -461,6 +541,19 @@ img {
     right:10cm;
     top:18cm;
 }
+
+
+#a300{
+    position: absolute;
+    right:12cm;
+    top:16cm;
+}
+#a301{
+    position: absolute;
+    right:6cm;
+    top:13cm;
+}
+
 
 /* лес */
 
@@ -543,7 +636,7 @@ img {
 #a109{
     position: absolute;
     right:19cm;
-    top:11cm;
+    top:10cm;
 }
 #a110{
     position: absolute;
@@ -552,8 +645,8 @@ img {
 }
 #a111{
     position: absolute;
-    right:17cm;
-    top:10cm;
+    right:18cm;
+    top:9cm;
 }
 #a112{
     position: absolute;
@@ -563,12 +656,12 @@ img {
 #a113{
     position: absolute;
     right:15cm;
-    top:13cm;
+    top:10cm;
 }
 #a114{
     position: absolute;
-    right:16cm;
-    top:12cm;
+    right:9cm;
+    top:9cm;
 }
 
 #a115{
@@ -675,8 +768,8 @@ img {
 }
 #a135{
     position: absolute;
-    right:15cm;
-    top:11cm;
+    right:16cm;
+    top:7cm;
 }
 #a136{
     position: absolute;
@@ -777,7 +870,7 @@ img {
 }
 #a155{
     position: absolute;
-    right:15cm;
+    right:16cm;
     top:10cm;
 }
 #a156{
@@ -925,6 +1018,8 @@ img {
 }
 #a500{
     position: absolute;
-    right:0cm;
-    top:0cm;
+    right:1cm;
+    top:1cm;
 }
+
+
