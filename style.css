@@ -1,6 +1,4 @@
 body{
-
-    
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -10,9 +8,12 @@ body{
     margin:0;
 }
 
-
-
-
+audio{
+    position: absolute;
+    right: 0vw;
+    top: 1vh;
+    scale: 50%;
+}
 
 /* город */
 
@@ -96,7 +97,6 @@ body{
     position: absolute;
     right:50vw;
     top:90vh;
-
 }
 
 
@@ -217,7 +217,7 @@ body{
 }
 #a36{
     position: absolute;
-    right:90vw;
+    right:80vw;
     top:35vh;
 }
 #a37{
@@ -257,7 +257,7 @@ body{
 }
 #a44{
     position: absolute;
-    right:72vw;
+    right:95vw;
     top:10vh;
 }
 #a45{
@@ -267,13 +267,13 @@ body{
 }
 #a46{
     position: absolute;
-    right:65vw;
-    top:10vh;
+    right:55vw;
+    top:23vh;
 }
 #a47{
     position: absolute;
     right:55vw;
-    top:40vh;
+    top:36vh;
 }
 
 
@@ -746,8 +746,8 @@ body{
 }
 #a133{
     position: absolute;
-    right:32vw;
-    top:25vh;
+    right:30vw;
+    top:17vh;
 }
 #a134{
     position: absolute;
@@ -782,7 +782,7 @@ body{
 #a140{
     position: absolute;
     right:45vw;
-    top:11vh;
+    top:13vh;
 }
 #a141{
     position: absolute;
@@ -873,12 +873,12 @@ body{
 }
 #a158{
     position: absolute;
-    right:10vw;
+    right:38vw;
     top:10vh;
 }
 #a159{
     position: absolute;
-    right:38vw;
+    right:10vw;
     top:10vh;
 }
 #a160{
